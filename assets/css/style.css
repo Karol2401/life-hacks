@@ -60,7 +60,9 @@
 }
 
 .navigation a li:hover {
-    color: red;
+    color: yellow;
+    background-color: black;
+    border-radius: 10%;
 }
 
 /* media width */
@@ -83,4 +85,16 @@
         display: block;
         margin: 0 auto;
     }
+}
+
+/* website categories */
+
+#categories {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.categories {
+    border: solid 2px blue;
+    background-color: yellow;
 }
